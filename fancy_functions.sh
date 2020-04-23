@@ -5,7 +5,7 @@ function gco
 	if [ "$inside_git_repo" ]; then
 	{
 		current_branch="$(git rev-parse --abbrev-ref HEAD)"
-		echo "Vous etes dans branche: [ $current_branch ]"
+		git commit -m "[$current_branch] $*"
 	}
 	else
 		echo "ERREUR! Vous n'etes pas dans un projet git"
