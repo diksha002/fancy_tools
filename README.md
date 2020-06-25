@@ -28,6 +28,7 @@ Dessous contient des `lignes de codes`.
   - $gap = git add .
   - $gpl = git pull
   - $gpu = git push
+  - $gss = git status
 ```  
 - La `fonction` **gco** est similaire à un *git commit* mais avec quelque modifications
   - affichera [branche où vous être] message
